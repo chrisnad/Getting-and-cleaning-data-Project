@@ -26,3 +26,6 @@ Further explanation on how this repo, project and script were produced here belo
 > 
 > Good luck!
 
+## Description
+
+For an explanation on how this works go [here](https://github.com/cleitus/Getting-and-cleaning-data-Project/blob/master/Codebook.md)
