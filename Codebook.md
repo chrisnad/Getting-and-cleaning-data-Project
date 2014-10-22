@@ -4,6 +4,7 @@ This code book describes the variables, the data, and all transformations and wo
 
 # Preliminaries
 
+Working in R Studio from here on.
 Load packages
 
 ```r
