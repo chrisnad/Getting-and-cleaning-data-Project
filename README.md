@@ -28,4 +28,4 @@ Further explanation on how this repo, project and script were produced here belo
 
 ## Description
 
-For an explanation on how this works go  [here](https://github.com/cleitus/Getting-and-cleaning-data-Project/blob/master/Codebook.md)
+For an explanation on how this works please visit [this page](https://github.com/cleitus/Getting-and-cleaning-data-Project/blob/master/Codebook.md)
