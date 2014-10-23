@@ -33,10 +33,10 @@ download.file(url, file.path(path, f))
 ```
 
 Unzip file manualy...
-The files are now in a folder named `Myfiles`. So we set this folder as the input path
+The files are now in the folder `UCI HAR Dataset`. So we set this folder as the input path
 
 ```r
-pathIn <- file.path(path, "Myfiles")
+pathIn <- file.path(path, "UCI HAR Dataset")
 ```
 
 ## Read files
