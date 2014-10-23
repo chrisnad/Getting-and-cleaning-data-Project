@@ -1,4 +1,5 @@
-```r
+# Description at https://github.com/cleitus/Getting-and-cleaning-data-Project/blob/master/ProjectScript.md
+
 library("data.table")
 library("reshape2")
 
@@ -10,6 +11,8 @@ if (!file.exists(path)) {
   dir.create(path)
 }
 download.file(url, file.path(path, f))
+
+unzip(file.path(path, f))
 
 pathIn <- file.path(path, "UCI_HAR_Dataset")
 
@@ -83,4 +86,3 @@ dt$featAxis <- factor(x %*% y, labels = c(NA, "X", "Y", "Z"))
 
 setkey(dt, subject, activity, featDomain, featAcceleration, featInstrument, featJerk, featMagnitude, featVariable, featAxis)
 dtTidy <- dt[, list(count = .N, average = mean(value)), by = key(dt)]
-```
