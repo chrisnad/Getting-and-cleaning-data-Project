@@ -226,7 +226,15 @@ setkey(dt, subject, activity, featDomain, featAcceleration, featInstrument,
 dtTidy <- dt[, list(count = .N, average = mean(value)), by = key(dt)]
 ```
 
-Make codebook.
+## Make codebook
+
+Automated process: create a script called `makeCodebook.Rmd` is the following fashion [makeCodebook.Rmd]("https://github.com/cleitus/Getting-and-cleaning-data-Project/blob/master/makeCodebook.Rmd")
+then we can go ahead and output the codebook likewise
+
+```r
+library(knitr)
+library(markdown)
+```
 
 ```r
 knit("makeCodebook.Rmd", output = "codebook.md", encoding = "ISO8859-1", quiet = TRUE)
