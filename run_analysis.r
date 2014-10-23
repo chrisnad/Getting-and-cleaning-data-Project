@@ -1,5 +1,3 @@
-Description [here](https://github.com/cleitus/Getting-and-cleaning-data-Project/blob/master/ProjectScript.md)
-
 ```r
 library("data.table")
 library("reshape2")
