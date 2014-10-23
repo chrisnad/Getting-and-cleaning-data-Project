@@ -241,7 +241,7 @@ knit("makeCodebook.Rmd", output = "codebook.md", encoding = "ISO8859-1", quiet =
 ```
 
 ```
-## [1] "codebook.md"
+> [1] "codebook.md"
 ```
 
 ```r
